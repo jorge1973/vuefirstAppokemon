@@ -6,7 +6,6 @@ import { RouterLink } from "vue-router";
 const useFavoritos = useFavoritesStore();
 const { favoritos } = storeToRefs(useFavoritos);
 const { remove } = useFavoritos;
-// let pokeId = localStorage.getItem(poke.id); //revisar luego tiene error
 </script>
 
 <template>
